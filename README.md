@@ -17,29 +17,6 @@ GoScanner is a terminal UI port scanner written in Go. It combines a concurrent 
 - Live TUI progress and timing
 - Export results to a timestamped `.txt` file
 
-## TUI Layout
-
-Left side:
-
-- Target / domain / IP range input
-- Ports input
-- Custom timeout checkbox with timeout textbox
-- Host worker count
-- Port worker count
-- Verbose checkbox
-- `Start Scan`
-- `Stop`
-- `Export TXT`
-- `Quit`
-
-Right side:
-
-- Progress panel
-- Timing panel
-- Status panel
-- Results table
-- Vertical scroll indicator
-
 ## Before You Start
 
 You need these tools installed:
@@ -252,46 +229,11 @@ Default engine settings:
 - Host workers: `runtime.NumCPU() * 16`
 - Port workers: `64`
 
-## Scan Workflow
-
-When you click `Start Scan`:
-
-- `Start Scan` becomes disabled
-- `Stop` becomes enabled
-- The scan starts immediately
-- The progress panel updates live
-- The timing panel shows start time and elapsed time
-- Open-port results are appended to the results table
-
-When the scan finishes:
-
-- The status changes to completed
-- The end time is shown
-- `Start Scan` becomes enabled again
-- `Stop` becomes disabled
-- `Export TXT` stays enabled if results exist
-
-When you click `Stop`:
-
-- The running scan is cancelled
-- The app returns to a ready state for another run
-
 ## Export
 
 Clicking `Export TXT` creates a timestamped file in the project folder:
 
 `goscanner-results-YYYYMMDD-HHMMSS.txt`
-
-The export includes:
-
-- App header
-- Developer link
-- Start time
-- End time
-- Elapsed time
-- Hosts found
-- Open-port totals
-- Result rows
 
 ## Current Scan Method
 

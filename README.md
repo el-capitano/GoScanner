@@ -304,10 +304,10 @@ Service names are shown for a built-in set of common ports.
 
 ## Project Structure
 
-- [main.go](/c:/Users/Majed/Desktop/development/Go/GoScan/main.go): app entrypoint
-- [scanner.go](/c:/Users/Majed/Desktop/development/Go/GoScan/scanner.go): scan engine, parsing, concurrency, and scan tracking
-- [tui.go](/c:/Users/Majed/Desktop/development/Go/GoScan/tui.go): TUI layout, buttons, progress, timing, results table, scrollbar, and TXT export
-- [go.mod](/c:/Users/Majed/Desktop/development/Go/GoScan/go.mod): module and dependencies
+- [main.go]: app entrypoint
+- [scanner.go]: scan engine, parsing, concurrency, and scan tracking
+- [tui.go]: TUI layout, buttons, progress, timing, results table, scrollbar, and TXT export
+- [go.mod]: module and dependencies
 
 ## Notes
 

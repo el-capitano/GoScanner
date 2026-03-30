@@ -1,4 +1,5 @@
-# GoScanner
+# GoScanner v0.1 / April 2026 - Developed By Majed Khaznadar (https://www.majed.xyz)
+
 
 GoScanner is a terminal UI port scanner written in Go. It combines a concurrent TCP scanner with a live TUI so you can enter targets on the left, watch scan progress on the right, and export results to a `.txt` file when the scan is done.
 
@@ -38,10 +39,6 @@ Right side:
 - Status panel
 - Results table
 - Vertical scroll indicator
-
-Top header:
-
-- `GoScanner v0.1 / April 2026 - Developed By Majed Khaznadar (https://www.majed.xyz)`
 
 ## Before You Start
 

@@ -3,6 +3,9 @@
 
 GoScanner is a terminal UI port scanner written in Go. It combines a concurrent TCP scanner with a live TUI so you can enter targets on the left, watch scan progress on the right, and export results to a `.txt` file when the scan is done.
 
+![GoScanner Intro](./goscanner.png)
+
+
 ![GoScanner Demo](./scanning.gif)
 
 ## Features
